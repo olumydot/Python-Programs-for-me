@@ -1,0 +1,7 @@
+print("Welcome to this new game")
+name = input("what is your name:  ")
+age = input("how old are you?:  ")
+a = int(float(age))
+country = input("What country are you from?:  ")
+print("Welcome", name,"Since you live in", country, ", you have", 95.0-a, "years to live")
+input("\n\nPress ENTER to exit this program")
