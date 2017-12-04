@@ -1,8 +1,8 @@
 import random
 
-random_no = random.randint(1, 1000)
-player = int(input("Guess a number between 1 and 1000:   "))
-trials = 1
+random_no = random.randint(1, 100)
+player = int(input("Guess a number between 1 and 100:   "))
+trials = 17
 while player != random_no:
 
     if player > random_no:
